@@ -81,9 +81,33 @@ footer {
 }
 
 .history {
+    margin: 16px;
+    padding: 8px;
+}
+
+.history h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.history-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 170px 1fr;
+    gap: 20px;
     align-items: center;
+}
+
+.history-content img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.history-content p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 .adventures {
