@@ -295,3 +295,127 @@ iframe {
     padding: 20px;
     background-color: var(--light-gray);
 }
+
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--accent1-color);
+    color: #fff;
+    opacity: 0.8;
+}
+
+.home-intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.home-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.home-grid h2,
+.home-grid p {
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    padding: 8px;
+}
+
+.newsletter button {
+    padding: 10px;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.trip-card {
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+    background-color: var(--light-gray);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip-card h2,
+.trip-card p {
+    text-align: center;
+}
+
+.trip-table {
+    margin: 20px 0;
+}
+
+.trip-table h2 {
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: var(--light-gray);
+}
